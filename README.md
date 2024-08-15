@@ -36,7 +36,7 @@ The primary objective of this project is to develop and deploy a robust AI-power
 
 The proposed system will adopt a two-database architecture, ensuring data integrity and facilitating a streamlined data flow.
 
-<img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<figure><img src=".gitbook/assets/file.excalidraw (3).svg" alt=""><figcaption><p>High level Overview</p></figcaption></figure>
 
 **A. Raw Data Repository**
 
@@ -44,6 +44,8 @@ The proposed system will adopt a two-database architecture, ensuring data integr
 * **Implementation:** This repository will utilize the existing dds\_managed\_db database. No structural changes to this database are proposed at this stage to ensure compatibility with current systems.
 
 **B. Business Logic (BL) - Data Processing Engine**
+
+<img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
 * **Purpose:** Serve as the core data processing engine responsible for extracting data from the Raw Data Repository, performing cleaning and transformation operations, and loading the processed data into the AI-Ready Data Store.
 * **Implementation:** The BLL will be implemented as a standalone component, potentially as a set of scripts or functions within a data pipeline framework. The choice of technology (e.g., Python with data processing libraries, cloud-based ETL tools) will be determined based on performance requirements and integration considerations with the existing DDS infrastructure.
@@ -74,13 +76,13 @@ The proposed system will adopt a two-database architecture, ensuring data integr
 
 
 
-#### V. Next Steps
+#### IV. Next Steps
 
 This proposal serves as a starting point for the technical implementation of the DDS AI-powered reporting system. The next steps involve:
 
 * **Development & Testing:** Develop, test, and iterate on the system components in an agile manner, ensuring alignment with DDS requirements and expectations.
 
-### <mark style="color:yellow;">Examples of Data Scenarios and System Handling Highlighting the approach</mark>
+### <mark style="color:red;">Examples of Data Scenarios and System Handling Highlighting the approach</mark>
 
 **A. Missing "Sales Date" Handling**
 
@@ -117,3 +119,8 @@ This proposal serves as a starting point for the technical implementation of the
 * **Scenario:** The dealership wants to analyze the effectiveness of their social media advertising campaigns, specifically focusing on leads generated through Facebook. They want to exclude leads from other sources (e.g., website forms, phone calls) to isolate the impact of Facebook campaigns.
 * **System Action:** The dealership utilizes the BLL's customizable exclusion criteria to filter the bdc\_lead\_sources table, including only records where "lead\_source" is "Facebook."
 * **Impact:** The filtered dataset provides a precise view of leads originating from Facebook, enabling the dealership to calculate the true cost per lead, conversion rate, and overall ROI of their Facebook advertising efforts.
+
+{% hint style="info" %}
+Next, we will explore in detail how the AI operates.
+{% endhint %}
+
