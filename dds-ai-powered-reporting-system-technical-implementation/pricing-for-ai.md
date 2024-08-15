@@ -133,7 +133,3 @@ DDS offers a transparent, token-based pricing model for the AI-powered reporting
 {% hint style="danger" %}
 &#x20;**Note:** This pricing model is illustrative. Final pricing will be determined based on specific dealership requirements and negotiated agreements.
 {% endhint %}
-
-
-
-*
