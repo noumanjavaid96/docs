@@ -1,4 +1,4 @@
-# DDS AI-Powered Reporting System: AI-Ready Data Store and Integration
+# AI-Ready Data Store and Integration
 
 This document focuses on the AI-Ready Data Store within the DDS AI-powered reporting system. It provides an  overview of the data structure, data dictionary, data quality expectations, and the integration of AI models for generating actionable insights for DDS. <mark style="color:yellow;">**While the Business Logic Layer (BLL) and Raw Data Repository are pre-processing steps managed by a**</mark>** **<mark style="color:red;">**DDS internal team,**</mark>** **<mark style="color:yellow;">**understanding these elements in context ensures seamless collaboration and data understanding for effective AI model integration and reporting.**</mark>
 
@@ -107,7 +107,7 @@ The AI-Ready Data Store will be used to generate interactive reports and visuali
 
 ### Flow
 
-<figure><img src=".gitbook/assets/mermaid-diagram (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mermaid-diagram (19).png" alt=""><figcaption></figcaption></figure>
 
 > <mark style="color:yellow;">**Explanation of the Diagram**</mark>\
 >

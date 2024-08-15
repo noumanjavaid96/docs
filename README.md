@@ -1,6 +1,7 @@
 ---
 icon: file-chart-pie
-cover: .gitbook/assets/Digital-Dealership-Logo.webp
+cover: >-
+  https://images.unsplash.com/photo-1723065775998-af1c09fd6060?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxkZWFsZXJzaGlwfGVufDB8fHx8MTcyMzcxMjA4MXww&ixlib=rb-4.0.3&q=85
 coverY: 0
 layout:
   cover:
