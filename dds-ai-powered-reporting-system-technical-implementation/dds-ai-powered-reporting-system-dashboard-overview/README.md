@@ -11,7 +11,7 @@ The dashboard is divided into four main sections:
 * **C. AI Performance Metrics:** A line chart illustrating the average AI accuracy across stores.
 * **D. Store Details:** A tabular view displaying detailed information for each store in the system.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. Section Details
 
@@ -26,10 +26,16 @@ This section displays four key metrics:
 
 **B. Token Usage by Store**
 
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 * **Visualization:** A bar chart visually represents the token usage for each store.
 * **Data:** The chart displays the token usage for each of the five stores. Store 3 has the highest usage (15,000 tokens), followed by Store 4 (7,500 tokens). Stores 1, 2, and 5 have either minimal or no token usage.
 
 **C. AI Performance Metrics**
+
+<figure><img src="../../.gitbook/assets/0826.gif" alt=""><figcaption></figcaption></figure>
+
+
 
 * **Visualization:** A line chart shows the trend of average AI accuracy across the five stores.
 * **Data:** The chart suggests that AI accuracy is generally high, fluctuating between approximately 60% and 100%. The accuracy dips for Store 2, which aligns with its inactive AI status (as shown in the "Store Details" section).
@@ -62,6 +68,10 @@ The AI accuracy displayed on the dashboard is a direct reflection of user satisf
 If a store has received 80 "Thumbs Up" and 20 "Thumbs Down" responses for its AI-generated reports, the calculated AI accuracy would be:
 
 (80 / (80 + 20)) \* 100 = 80%
+
+
+
+
 
 #### 4. Data Insights and Potential Uses
 
