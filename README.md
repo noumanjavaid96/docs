@@ -37,7 +37,11 @@ The primary objective of this project is to develop and deploy a robust AI-power
 
 The proposed system will adopt a two-database architecture, ensuring data integrity and facilitating a streamlined data flow.
 
-<figure><img src=".gitbook/assets/file.excalidraw (3).svg" alt=""><figcaption><p>High level Overview</p></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src=".gitbook/assets/file.excalidraw (3).svg" alt="" width="563"><figcaption><p>High level Overview</p></figcaption></figure>
+
+</div>
 
 **A. Raw Data Repository**
 
