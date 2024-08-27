@@ -11,9 +11,13 @@ The dashboard is divided into four main sections:
 * **C. AI Performance Metrics:** A line chart illustrating the average AI accuracy across stores.
 * **D. Store Details:** A tabular view displaying detailed information for each store in the system.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-#### 2. Section Details
+{% hint style="info" %}
+<mark style="color:red;background-color:orange;">**The section highlighted in red indicates that it will not be part of the first version. However, this section was added to the dashboard to provide more detailed control over each store's individual API key. The section at the end explain the features and discuss them in more detail and has a dedicated page as well.**</mark>&#x20;
+{% endhint %}
+
+### **2. Sec**tion Details
 
 **A. System Overview**
 
@@ -35,24 +39,8 @@ This section displays four key metrics:
 
 <figure><img src="../../.gitbook/assets/0826.gif" alt=""><figcaption></figcaption></figure>
 
-
-
 * **Visualization:** A line chart shows the trend of average AI accuracy across the five stores.
 * **Data:** The chart suggests that AI accuracy is generally high, fluctuating between approximately 60% and 100%. The accuracy dips for Store 2, which aligns with its inactive AI status (as shown in the "Store Details" section).
-
-**D. Store Details**
-
-* **Visualization:** A table provides a detailed view of individual store information.
-* **Columns:**
-  * **Store Name:** The name of each dealership.
-  * **AI Status:** Indicates whether the AI features are active or inactive for the store.
-  * **Token Usage:** Displays the token consumption for the store.
-  * **AI Accuracy:** Shows the average accuracy of AI-generated reports for the store, based on user feedback collected through the "Thumbs Up" and "Thumbs Down" buttons.
-  * **AI Latency (ms):** Indicates the average time (in milliseconds) taken for the AI models to generate results for the store.
-  * **Token:** A unique, alphanumeric token used to authenticate API requests for the store.
-  * **Actions:**
-    * **View Details:** Provides a link to view more detailed information about the store's AI usage and settings.
-    * **Regenerate Token:** Allows administrators to generate a new API token for the store, typically used for security purposes or if the existing token is compromised.
 
 #### 3. AI Accuracy Measurement
 
@@ -67,11 +55,14 @@ The AI accuracy displayed on the dashboard is a direct reflection of user satisf
 
 If a store has received 80 "Thumbs Up" and 20 "Thumbs Down" responses for its AI-generated reports, the calculated AI accuracy would be:
 
-(80 / (80 + 20)) \* 100 = 80%
+## $$( \frac{80}{80 + 20} \times 100 = 80% )$$)
 
+{% hint style="success" %}
+**More detailed information is discussed for this flow here:**
 
-
-
+\
+[dds-ai-performance-feedback-dashboard.md](dds-ai-performance-feedback-dashboard.md "mention")
+{% endhint %}
 
 #### 4. Data Insights and Potential Uses
 
@@ -82,9 +73,23 @@ The dashboard provides valuable insights into:
 * **AI Performance:** Track the average AI accuracy across stores and identify potential performance issues that may need investigation. Low accuracy for a specific store could indicate that the AI models are not adequately meeting the reporting needs of that dealership.
 * **Store-Specific Details:** Get a granular view of individual dealership AI usage, including token consumption, accuracy, latency, and API token management.
 
-#### 5. Dashboard Actions and Management
+<mark style="color:orange;background-color:red;">**D. Store Details**</mark>
 
-The dashboard allows for the following actions:
+* <mark style="color:orange;background-color:red;">**Visualization: A table provides a detailed view of individual store information.**</mark>
+* <mark style="color:orange;background-color:red;">**Columns:**</mark>
+  * <mark style="color:orange;background-color:red;">**Store Name: The name of each dealership.**</mark>
+  * <mark style="color:orange;background-color:red;">**AI Status: Indicates whether the AI features are active or inactive for the store.**</mark>
+  * <mark style="color:orange;background-color:red;">**Token Usage: Displays the token consumption for the store.**</mark>
+  * <mark style="color:orange;background-color:red;">**AI Accuracy: Shows the average accuracy of AI-generated reports for the store, based on user feedback collected through the "Thumbs Up" and "Thumbs Down" buttons.**</mark>
+  * <mark style="color:orange;background-color:red;">**AI Latency (ms): Indicates the average time (in milliseconds) taken for the AI models to generate results for the store.**</mark>
+  * <mark style="color:orange;background-color:red;">**Token: A unique, alphanumeric token used to authenticate API requests for the store.**</mark>
+  * <mark style="color:orange;background-color:red;">**Actions:**</mark>
+    * <mark style="color:orange;background-color:red;">**View Details: Provides a link to view more detailed information about the store's AI usage and settings.**</mark>
+    * <mark style="color:orange;background-color:red;">**Regenerate Token: Allows administrators to generate a new API token for the store, typically used for security purposes or if the existing token is compromised.**</mark>
 
-* **Viewing Detailed Store Information:** Clicking "View Details" provides access to more granular information about the selected dealership's AI usage.
-* **Regenerating API Tokens:** Administrators can generate new API tokens for individual dealerships to enhance security or manage access.
+#### <mark style="color:orange;background-color:red;">**5. Dashboard Actions and Management**</mark>
+
+<mark style="color:orange;background-color:red;">**The dashboard allows for the following actions:**</mark>
+
+* <mark style="color:orange;background-color:red;">**Viewing Detailed Store Information: Clicking "View Details" provides access to more granular information about the selected dealership's AI usage.**</mark>
+* <mark style="color:orange;background-color:red;">**Regenerating API Tokens: Administrators can generate new API tokens for individual dealerships to enhance security or manage access.**</mark>

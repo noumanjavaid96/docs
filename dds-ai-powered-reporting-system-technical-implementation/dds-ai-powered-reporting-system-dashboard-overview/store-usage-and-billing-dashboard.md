@@ -1,5 +1,9 @@
 # Store Usage and Billing Dashboard
 
+{% hint style="info" %}
+## <mark style="color:orange;">**Please note that this page is not part of the MVP. It will be included in the final product as part of the comprehensive AI Management Reporting System.**</mark>
+{% endhint %}
+
 This document explains the Usage and Billing dashboard for individual stores within the DDS AI-powered reporting system. This dashboard allows dealership personnel to track their store's API usage and associated costs, manage credit grants, and view invoice details specific to their dealership.
 
 #### 1. Dashboard Sections

@@ -1,5 +1,9 @@
 # AI Model Settings Overview
 
+{% hint style="info" %}
+## <mark style="color:orange;">Again</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**Please note that this page is not part of the MVP. It will be included in the final product as part of the comprehensive AI Management Reporting System.**</mark>
+{% endhint %}
+
 This document explains the AI Model Settings page within the DDS AI-powered reporting system. This page allows administrators to configure the AI model used for report generation at either a global (system-wide) or individual store level. The settings control aspects like model selection, output length, response creativity, and content filtering.
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
@@ -46,6 +50,4 @@ This section allows fine-tuning of the AI model's behavior:
 * **Last Sync Time:** Displays the date and time of the last successful database synchronization (2023-08-25 14:30:00 in the example).
 * **Action:**
   * **Sync Database:** A button that triggers the synchronization process to update the AI model with the most recent data.
-
-
 

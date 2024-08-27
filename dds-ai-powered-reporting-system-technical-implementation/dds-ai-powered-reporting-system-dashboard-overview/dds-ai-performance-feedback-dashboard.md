@@ -1,3 +1,8 @@
+---
+icon: message-bot
+coverY: 0
+---
+
 # DDS AI Performance Feedback Dashboard
 
 This document outlines the key components and functionalities of the DDS AI Performance Feedback Dashboard. This dashboard empowers DDS administrators to track the accuracy and effectiveness of the AI-powered reporting system, analyze user feedback, and identify areas for improvement.
